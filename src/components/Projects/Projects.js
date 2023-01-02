@@ -1,5 +1,12 @@
 import './styles.css';
 
+import myOldPortfolio from '../../img/projects/my-old-portfolio.png';
+import fotoColection from '../../img/projects/foto-colection.png';
+import myOldCss from '../../img/projects/my-old-css.png';
+import quteMachina from '../../img/projects/qute-machina.png';
+import reactPizza from '../../img/projects/react-pizza.png';
+import reactSnykers from '../../img/projects/react-snykers.png';
+
 const Projects = () => {
   return (
     <main className='section'>
@@ -9,7 +16,7 @@ const Projects = () => {
           <li className='project'>
             <a href='./project-page.html'>
               <img
-                src='./img/projects/my-old-portfolio.png'
+                src={myOldPortfolio}
                 alt='project'
                 className='project__img'
               />
@@ -18,52 +25,32 @@ const Projects = () => {
           </li>
           <li className='project'>
             <a href='./project-page.html'>
-              <img
-                src='./img/projects/02.jpg'
-                alt='project'
-                className='project__img'
-              />
-              <h3 className='project__title'>Video service</h3>
+              <img src={reactSnykers} alt='project' className='project__img' />
+              <h3 className='project__title'>React Snykers</h3>
             </a>
           </li>
           <li className='project'>
             <a href='./project-page.html'>
-              <img
-                src='./img/projects/03.jpg'
-                alt='project'
-                className='project__img'
-              />
-              <h3 className='project__title'>Video portal</h3>
+              <img src={quteMachina} alt='project' className='project__img' />
+              <h3 className='project__title'>Qute Machina</h3>
             </a>
           </li>
           <li className='project'>
             <a href='./project-page.html'>
-              <img
-                src='./img/projects/04.jpg'
-                alt='project'
-                className='project__img'
-              />
-              <h3 className='project__title'>Dating app</h3>
+              <img src={myOldCss} alt='project' className='project__img' />
+              <h3 className='project__title'>Example css</h3>
             </a>
           </li>
           <li className='project'>
             <a href='./project-page.html'>
-              <img
-                src='./img/projects/05.jpg'
-                alt='project'
-                className='project__img'
-              />
-              <h3 className='project__title'>Landing</h3>
+              <img src={fotoColection} alt='project' className='project__img' />
+              <h3 className='project__title'>Foto Colection</h3>
             </a>
           </li>
           <li className='project'>
             <a href='./project-page.html'>
-              <img
-                src='./img/projects/06.jpg'
-                alt='project'
-                className='project__img'
-              />
-              <h3 className='project__title'>Gaming community</h3>
+              <img src={reactPizza} alt='project' className='project__img' />
+              <h3 className='project__title'>React Pizza</h3>
             </a>
           </li>
         </ul>
