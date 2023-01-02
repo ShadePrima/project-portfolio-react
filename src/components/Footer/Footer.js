@@ -1,4 +1,4 @@
-import React from 'react';
+import './style.css';
 
 import gitHub from '../../img/icons/gitHub.svg';
 import instagram from '../../img/icons/instagram.svg';
