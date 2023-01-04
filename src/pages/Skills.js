@@ -15,10 +15,10 @@ const Skills = () => {
               StyledComponents
             </p>
           </li>
-          <li className='content-list__item'>
+          {/* <li className='content-list__item'>
             <h2 className='title-2'>Backend</h2>
             <p>NodeJS, MySQL, MongoDB, PHP, Laravel</p>
-          </li>
+          </li> */}
         </ul>
       </div>
     </main>

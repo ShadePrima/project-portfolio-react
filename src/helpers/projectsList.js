@@ -1,5 +1,5 @@
 import myOldPortfolio from '../img/projects/my-old-portfolio-mini.png';
-import myOldPortfolioBig from '../img/projects/my-old-portfolio.png';
+import myOldPortfolioBig from '../img/projects/Frame 1.jpg';
 
 import fotoColection from '../img/projects/foto-colection-mini.png';
 import fotoColectionBig from '../img/projects/foto-colection.png';
