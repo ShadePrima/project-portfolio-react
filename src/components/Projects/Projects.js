@@ -2,7 +2,6 @@ import './styles.css';
 
 import Project from '../project/Project';
 import { projects } from '../../helpers/projectsList';
-console.log('project', projects);
 
 const Projects = () => {
   return (

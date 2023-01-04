@@ -1,20 +1,32 @@
-import React from 'react';
+import { useParams } from 'react-router-dom';
+
 import BtnGitHub from '../components/btnGitHub/BtnGitHub';
-import img from '../img/projects/01-big.jpg';
+import { projects } from '../helpers/projectsList';
 
 const ProjectPage = () => {
+  const { id } = useParams();
+  const project = projects[id];
+  console.log(project);
+
   return (
     <main className='section'>
       <div className='container'>
         <div className='project-details'>
-          <h1 className='title-1'>My old portfolio</h1>
-          <a href='https://portfolio-cv-aleksandr-git-main-shadeprima.vercel.app'>
-            <img src={img} alt='project' className='project-details__cover' />
+          <h1 className='title-1'>{project.title}</h1>
+
+          <a href={project.vercelLink} target='_blank' rel='noreferrer'>
+            <img
+              src={project.imgBig}
+              alt='project'
+              className='project-details__cover'
+            />
           </a>
+
           <div className='project-details__desc'>
-            <p>Skills: Html, CSS, JS, React</p>
+            <p>{project.skills}</p>
           </div>
-          <BtnGitHub link='https://github.com/ShadePrima' />
+
+          <BtnGitHub link={project.gitHubLink} />
         </div>
       </div>
     </main>

@@ -9,7 +9,6 @@ import Skills from './pages/Skills';
 import Contacts from './pages/Contacts';
 import ProjectPage from './pages/ProjectPage';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Projects from './components/Projects/Projects';
 import ScrollToTop from './components/utils/scrollToTop';
 
 function App() {
@@ -20,9 +19,9 @@ function App() {
         <Navbar />
         <Routes>
           <Route path='/' element={<MyProjects />} />
-          <Route path='/project' element={<ProjectPage />} />
           <Route path='/skills' element={<Skills />} />
           <Route path='/contacts' element={<Contacts acts />} />
+          <Route path='/project/:id' element={<ProjectPage />} />
         </Routes>
         <Footer />
       </Router>
