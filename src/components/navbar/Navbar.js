@@ -1,5 +1,6 @@
-import './style.css';
+import { NavLink } from 'react-router-dom';
 
+import './style.css';
 import sun from '../../img/icons/sun.svg';
 import moon from '../../img/icons/moon.svg';
 
@@ -8,9 +9,9 @@ const Navbar = () => {
     <nav className='nav'>
       <div className='container'>
         <div className='nav-row'>
-          <a href='./index.html' className='logo'>
+          <NavLink to='/' className='logo'>
             <strong>My</strong> portfolio
-          </a>
+          </NavLink>
 
           <button className='dark-mode-btn'>
             <img src={sun} alt='Light-mode' className='dark-mode-btn__icone' />
@@ -19,22 +20,19 @@ const Navbar = () => {
 
           <ul className='nav-list'>
             <li className='nav-list__item'>
-              <a
-                href='./index.html'
-                className='nav-list__link nav-list__link--active'
-              >
+              <NavLink to='/' className='nav-list__link nav-list__link--active'>
                 Projects
-              </a>
+              </NavLink>
             </li>
             <li className='nav-list__item'>
-              <a href='./skills.html' className='nav-list__link'>
+              <NavLink to='/skills' className='nav-list__link'>
                 Skills
-              </a>
+              </NavLink>
             </li>
             <li className='nav-list__item'>
-              <a href='./contacts.html' className='nav-list__link'>
+              <NavLink to='/contacts' className='nav-list__link'>
                 Contacts
-              </a>
+              </NavLink>
             </li>
           </ul>
         </div>
