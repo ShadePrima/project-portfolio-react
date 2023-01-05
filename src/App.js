@@ -9,7 +9,7 @@ import Skills from './pages/Skills';
 import Contacts from './pages/Contacts';
 import ProjectPage from './pages/ProjectPage';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import ScrollToTop from './components/utils/scrollToTop';
+import ScrollToTop from './utils/scrollToTop';
 
 function App() {
   return (
