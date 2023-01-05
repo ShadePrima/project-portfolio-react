@@ -11,29 +11,44 @@ const Footer = () => {
       <div className='container'>
         <div className='footer__wrapper'>
           <ul className='social'>
-            <li className='social__item'>
+            {/* <li className='social__item'>
               <a href='#!'>
                 <img src={instagram} alt='instagram' />
               </a>
-            </li>
-            <li className='social__item'>
+            </li> */}
+            {/* <li className='social__item'>
               <a href='#!'>
                 <img src={twitter} alt='twitter' />
               </a>
-            </li>
+            </li> */}
             <li className='social__item'>
-              <a href='#!'>
+              <a
+                href='https://github.com/ShadePrima'
+                target='_blank'
+                rel='noreferrer'
+              >
                 <img src={gitHub} alt='gitHub' />
               </a>
             </li>
             <li className='social__item'>
-              <a href='#!'>
+              <a
+                href='https://www.linkedin.com/in/aleksandr-aniskevych-961698235/'
+                target='_blank'
+                rel='noreferrer'
+              >
                 <img src={linkedin} alt='linkedIn' />
               </a>
             </li>
           </ul>
           <div className='copyright'>
-            <p>© 2022 frontend-dev.com</p>
+            <p>
+              <a
+                className='footer-link-mail'
+                href='mailto:aleksandrag1984@gmail.com'
+              >
+                aleksandrag1984@gmail.com
+              </a>
+            </p>
           </div>
         </div>
       </div>
