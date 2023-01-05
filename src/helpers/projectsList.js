@@ -1,20 +1,20 @@
-import myOldPortfolio from '../img/projects/my-old-portfolio-mini.png';
-import myOldPortfolioBig from '../img/projects/Frame 1.jpg';
+import myOldPortfolio from '../img/projects/my-old-portfolio.jpg';
+import myOldPortfolioBig from '../img/projects/my-old-portfolio.jpg';
 
-import fotoColection from '../img/projects/foto-colection-mini.png';
-import fotoColectionBig from '../img/projects/foto-colection.png';
+import fotoColection from '../img/projects/foto-colection.jpg';
+import fotoColectionBig from '../img/projects/foto-colection.jpg';
 
-import myOldCss from '../img/projects/my-old-css-mini.png';
-import myOldCssBig from '../img/projects/my-old-css.png';
+import myOldCss from '../img/projects/my-old-css.jpg';
+import myOldCssBig from '../img/projects/my-old-css.jpg';
 
-import reactSnykers from '../img/projects/react-snykers-mini.png';
-import reactSnykersBig from '../img/projects/react-snykers.png';
+import reactSnykers from '../img/projects/react-snykers.jpg';
+import reactSnykersBig from '../img/projects/react-snykers.jpg';
 
-import quteMachina from '../img/projects/qute-machina-mini.png';
-import quteMachinaBig from '../img/projects/qute-machina.png';
+import quteMachina from '../img/projects/qute-machina.jpg';
+import quteMachinaBig from '../img/projects/qute-machina.jpg';
 
-import reactPizza from '../img/projects/react-pizza-mini.png';
-import reactPizzaBig from '../img/projects/react-pizza.png';
+// import reactPizza from '../img/projects/react-pizza.jpg';
+// import reactPizzaBig from '../img/projects/react-pizza.jpg';
 
 export const projects = [
   {
