@@ -13,8 +13,8 @@ import reactSnykersBig from '../img/projects/react-snykers.jpg';
 import quteMachina from '../img/projects/qute-machina.jpg';
 import quteMachinaBig from '../img/projects/qute-machina.jpg';
 
-// import reactPizza from '../img/projects/react-pizza.jpg';
-// import reactPizzaBig from '../img/projects/react-pizza.jpg';
+import reactPizza from '../img/projects/react-pizza-big.jpg';
+import reactPizzaBig from '../img/projects/react-pizza-big.jpg';
 
 export const projects = [
   {
@@ -28,13 +28,14 @@ export const projects = [
   },
   {
     id: 2,
-    title: 'Foto colection',
+    title: 'React Pizza',
     skills: 'Html, CSS, JS, React',
-    img: fotoColection,
-    imgBig: fotoColectionBig,
-    vercelLink: 'https://photo-collections-shadeprima.vercel.app',
-    gitHubLink: 'https://github.com/ShadePrima/photo-collections.git',
+    img: reactPizza,
+    imgBig: reactPizzaBig,
+    vercelLink: 'https://react-pizza-v2-git-main-shadeprima.vercel.app',
+    gitHubLink: 'https://github.com/ShadePrima/react-pizza-v2.git',
   },
+
   {
     id: 3,
     title: 'My old css',
@@ -63,13 +64,13 @@ export const projects = [
     vercelLink: 'https://random-quote-machine-taupe.vercel.app',
     gitHubLink: 'https://github.com/ShadePrima/random-quote-machine.git',
   },
-  //   {
-  //     id: 6,
-  //     title: 'React Pizza. This project is under development.',
-  //     skills: 'Html, CSS, JS, React',
-  //     img: reactPizza,
-  //     imgBig: reactPizzaBig,
-  //     vercelLink: '',
-  //     gitHubLink: 'https://github.com/ShadePrima/portfolio-cv-Aleksandr.git',
-  //   },
+  {
+    id: 6,
+    title: 'Foto colection',
+    skills: 'Html, CSS, JS, React',
+    img: fotoColection,
+    imgBig: fotoColectionBig,
+    vercelLink: 'https://photo-collections-shadeprima.vercel.app',
+    gitHubLink: 'https://github.com/ShadePrima/photo-collections.git',
+  },
 ];
