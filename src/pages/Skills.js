@@ -8,10 +8,9 @@ const Skills = () => {
           <li className='content-list__item'>
             <h2 className='title-2'>Frontend</h2>
             <p>
-              HTML, CSS, SASS, JavaScript,
-              <span className='none'>TypeScript,</span> ReactJS, Redux, Redux
-              Toolkit, BootStrap, MaterialUI, Git, React Native.
-              <span className='none'>TailwindCSS, </span>
+              HTML, CSS, SASS, CSS Modules, Bootstrap, Materialize, Java Script,
+              Type Script, React, React Router, React Hooks, Redux Toolkit,
+              Axios, Git
             </p>
           </li>
           {/* <li className='content-list__item'>
