@@ -16,6 +16,9 @@ import quteMachinaBig from '../img/projects/qute-machina.jpg';
 import reactPizza from '../img/projects/react-pizza-big.jpg';
 import reactPizzaBig from '../img/projects/react-pizza-big.jpg';
 
+import itemList from '../img/projects/item-list.jpg';
+import itemListBig from '../img/projects/item-list.jpg';
+
 export const projects = [
   {
     id: 1,
@@ -29,7 +32,7 @@ export const projects = [
   {
     id: 2,
     title: 'React Pizza',
-    skills: 'Html, CSS, JS, React',
+    skills: 'Html, CSS, TS, React',
     img: reactPizza,
     imgBig: reactPizzaBig,
     vercelLink: 'https://react-pizza-v2-git-main-shadeprima.vercel.app',
@@ -72,5 +75,14 @@ export const projects = [
     imgBig: fotoColectionBig,
     vercelLink: 'https://photo-collections-shadeprima.vercel.app',
     gitHubLink: 'https://github.com/ShadePrima/photo-collections.git',
+  },
+  {
+    id: 7,
+    title: 'Item List',
+    skills: 'Html, CASS, JS, React',
+    img: itemList,
+    imgBig: itemListBig,
+    vercelLink: 'https://react-list-items-git-main-shadeprima.vercel.app',
+    gitHubLink: 'https://github.com/ShadePrima/react-list-items.git',
   },
 ];
