@@ -19,14 +19,21 @@ import reactPizzaBig from '../img/projects/react-pizza-big.jpg'
 import itemList from '../img/projects/item-list.jpg'
 import itemListBig from '../img/projects/item-list.jpg'
 
-import nextBlogSmall from '../img/projects/next-blog-app-small.jpg'
+// import nextBlogSmall from '../img/projects/next-blog-app-small.jpg'
 import nextBlog from '../img/projects/next-blog-app.jpg'
+
+// import tripeSmall from '../img/projects/tripe-s.jpg'
+import tripeBig from '../img/projects/tripe-big.jpg'
+
+import creatiff from '../img/projects/creatiff.jpg'
+
+import owl from '../img/projects/owl.jpg'
 
 export const projects = [
   {
     id: 1,
     title: 'Next blog',
-    skills: 'Html, SCSS, JS, React, Next JS',
+    skills: 'Html, SASS, JS, React, Next JS',
     img: nextBlog,
     imgBig: nextBlog,
     vercelLink: 'https://next-blog-app-sand.vercel.app',
@@ -91,10 +98,37 @@ export const projects = [
   {
     id: 8,
     title: 'Item List',
-    skills: 'Html, CASS, JS, React',
+    skills: 'Html, SASS, JS, React',
     img: itemList,
     imgBig: itemListBig,
     vercelLink: 'https://react-list-items-git-main-shadeprima.vercel.app',
     gitHubLink: 'https://github.com/ShadePrima/react-list-items.git',
+  },
+  {
+    id: 9,
+    title: 'Tripy',
+    skills: 'Html, SASS, JS, React, Next JS',
+    img: tripeBig,
+    imgBig: tripeBig,
+    vercelLink: 'https://next-tripy-app.vercel.app',
+    gitHubLink: 'https://github.com/ShadePrima/next-tripy-app',
+  },
+  {
+    id: 10,
+    title: 'CREATIFF',
+    skills: 'Html, SASS, JS, React, Next JS',
+    img: creatiff,
+    imgBig: creatiff,
+    vercelLink: 'https://next-creatiff-app-git-main-shadeprima.vercel.app',
+    gitHubLink: 'https://github.com/ShadePrima/next-creatiff-app',
+  },
+  {
+    id: 11,
+    title: 'Owl',
+    skills: 'Html, SASS, JS, React, Next JS',
+    img: owl,
+    imgBig: owl,
+    vercelLink: 'https://next-owl-app-git-main-shadeprima.vercel.app',
+    gitHubLink: 'https://github.com/ShadePrima/next-owl-app',
   },
 ]
