@@ -29,6 +29,8 @@ import creatiff from '../img/projects/creatiff.jpg'
 
 import owl from '../img/projects/owl.jpg'
 
+import headfone from '../img/projects/headfone.jpg'
+
 export const projects = [
   {
     id: 1,
@@ -130,5 +132,14 @@ export const projects = [
     imgBig: owl,
     vercelLink: 'https://next-owl-app-git-main-shadeprima.vercel.app',
     gitHubLink: 'https://github.com/ShadePrima/next-owl-app',
+  },
+  {
+    id: 12,
+    title: 'Headfone',
+    skills: 'Html, SASS, JS, React, Next JS',
+    img: headfone,
+    imgBig: headfone,
+    vercelLink: 'https://next-headphone-app-git-main-shadeprima.vercel.app',
+    gitHubLink: 'https://github.com/ShadePrima/next-headphone-app',
   },
 ]
